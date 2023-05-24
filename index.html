@@ -11,19 +11,19 @@
 
 <body>
     <div class="container">
-        <h1 class="heading">CASH REGISTER MANAGER</h1>
+        <h1 class="heading">cash register manager</h1>
         <P class="description"> Enter the bill amount and cash given by the customer and know the 
             minimum number of notes to return.
         </P>
         <label for="bill-amount">Bill Amount:</label>
         <input id="bill-amount" type="number" />
-        <button id="next-button">NEXT</button>
+        <!-- <button id="next-button">NEXT</button> -->
         <div  class="cash-input  container "> 
             <label for="cash-given">CashGiven:</label>
             <input id="cash-given" type="number" />
             <button id="check-button">CHECK</button></div>
-        <p id="error-message"></p>
-        <table class="change-table">
+        <p class="error" id="error-message"></p>            
+        <table id="output">
             <caption>Return Change</caption>
             <tr>
                 <th>No. of Notes</th>
@@ -49,11 +49,11 @@
 
         </table>
     </div>
-    <footer>
+    <!-- <footer>
 
         <div class="footer">© | 2023| JebazAugastinNadar</div>
 
-    </footer>
+    </footer> -->
 </body>
 <script src="./index.js"></script>
 
